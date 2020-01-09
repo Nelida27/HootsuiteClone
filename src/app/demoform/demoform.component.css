@@ -6,3 +6,21 @@ label{
 .card{
   width: 100%;
 }
+.custom-control-input{
+    color: #dc3545;
+}
+.example-class{
+  border:1px solid blue;
+}
+.other-class{
+  border-bottom: 4px solid red;
+}
+
+input:focus{
+  outline: none;
+  border-bottom: 4px solid #2f6b9a;
+}
+select:focus{
+  outline: none;
+  border-bottom: 4px solid #2f6b9a;
+}

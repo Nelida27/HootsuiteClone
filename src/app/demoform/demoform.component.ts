@@ -10,6 +10,13 @@ import { FormGroup, FormControl, Validators, FormBuilder }  from '@angular/forms
 })
 export class DemoformComponent implements OnInit {
   formEx:FormGroup;
+  validation_msg={
+    'name':[
+      {type:'required',message:'Email is required.'}
+
+    ]
+
+  }
   constructor(private fb: FormBuilder,private backendService:BackendService) { }
 
   ngOnInit() {
@@ -53,7 +60,7 @@ onSubmit(value){
 this.backendService.addUser(value)
 .then(res=>{
   this.resetFields();
-  console.log("done");
+  window.location.href = 'https://hootsuite.com/request-demo/thank-you';
 })
 
 }

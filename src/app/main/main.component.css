@@ -1,24 +1,4 @@
-.container{
 
-}
-.demo-request2{
-
- margin-top: -75px;
-  }
-
-.content {
-
- margin-top: -200px;
-border-style: dotted;
-width: 1000px;
-
-}
-
-.co1{
-  width: auto;
-  display: inline-block;
-
-}
 
 .col1{
 
@@ -28,8 +8,4 @@ width: 1000px;
 .col2{
 
  margin-top: -120px;
-}
-.wrapper {
-  display: flex;
-  flex-flow: row wrap;
 }
