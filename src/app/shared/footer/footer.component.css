@@ -1,0 +1,10 @@
+.test
+{
+background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…g5NSAyLjA1Ni0xLjIwNnoiIGZpbGw9IiNGRkYiIG9wYWNpdHk9Ii4yNSIvPjwvZz48L3N2Zz4=);
+}
+a{
+  text-decoration: none;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}

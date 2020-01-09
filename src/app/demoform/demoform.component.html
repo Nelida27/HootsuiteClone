@@ -1,0 +1,135 @@
+
+<div class="container">
+    <div class="row">
+
+                    <!-- form user info -->
+                    <div class="card">
+                        <div class="card-header" style="background-color:#2f6b9a;">
+                            <h4 class="mb-0 text-center" style="color:#fff;" >Request a Demo</h4>
+                        </div>
+                        <div class="card-body">
+                            <form class="form" [formGroup]="formEx"  role="form" autocomplete="off" (ngSubmit)="onSubmit(formEx.value)">
+                                <div class="form-group row">
+                                    <label class="col-lg-5 col-form-label form-control-label" >First name</label>
+                                    <div class="col-lg-7">
+                                        <input class="form-control" type="text" maxlength="255"  formControlName="name">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-5 col-form-label form-control-label" >Last name</label>
+                                    <div class="col-lg-7">
+                                        <input class="form-control" type="text"  formControlName="surname">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-5 col-form-label form-control-label" >Business Email Address</label>
+                                    <div class="col-lg-7">
+                                        <input class="form-control" type="email"  formControlName="email">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-5 col-form-label form-control-label">Company</label>
+                                    <div class="col-lg-7">
+                                        <input class="form-control" type="text" formControlName="company">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-5 col-form-label form-control-label">Website</label>
+                                    <div class="col-lg-7">
+                                        <input class="form-control" type="url" formControlName="website">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-5 col-form-label form-control-label">Number of Employess</label>
+                                    <div class="col-lg-7">
+                                        <select id="user_time_zone" class="form-control" size="0" formControlName="employess" >
+                                            <option value="" selected="selected">- Please Select -</option>
+                                            <option value="">1 - 20</option>
+                                            <option value="">21 - 100</option>
+                                            <option value="">101 - 500</option>
+                                            <option value="">501 - 1,000</option>
+                                            <option value="" >1,001 - 10,000</option>
+                                            <option value="">10,001 +</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-5 col-form-label form-control-label">Industry</label>
+                                    <div class="col-lg-7">
+                                        <select id="user_time_zone" class="form-control" size="0" formControlName="industry">
+                                            <option value="" selected="selected">- Please Select -</option>
+                                            <option value="">1 - 20</option>
+                                            <option value="">21 - 100</option>
+                                            <option value="">101 - 500</option>
+                                            <option value="">501 - 1,000</option>
+                                            <option value="" >1,001 - 10,000</option>
+                                            <option value="">10,001 +</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-5 col-form-label form-control-label">Country</label>
+                                    <div class="col-lg-7">
+                                        <select id="user_time_zone" class="form-control" size="0" formControlName="country">
+                                            <option value="" selected="selected">- Please Select -</option>
+                                            <option value="">1 - 20</option>
+                                            <option value="">21 - 100</option>
+                                            <option value="">101 - 500</option>
+                                            <option value="">501 - 1,000</option>
+                                            <option value="" >1,001 - 10,000</option>
+                                            <option value="">10,001 +</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-5 col-form-label form-control-label">Phone Number</label>
+                                    <div class="col-lg-7">
+                                        <input class="form-control" type="text" formControlName="phone">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-5 col-form-label form-control-label">Title</label>
+                                    <div class="col-lg-7">
+                                        <select id="user_time_zone" class="form-control" size="0" formControlName="title">
+                                            <option value="" selected="selected">- Please Select -</option>
+                                            <option value="">1 - 20</option>
+                                            <option value="">21 - 100</option>
+                                            <option value="">101 - 500</option>
+                                            <option value="">501 - 1,000</option>
+                                            <option value="" >1,001 - 10,000</option>
+                                            <option value="">10,001 +</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-5 col-form-label form-control-label ">Company Revenue:</label>
+                                    <div class="col-lg-7">
+                                        <select id="user_time_zone" class="form-control" size="0" formControlName="companyRevenue">
+                                            <option value="" selected="selected">- Please Select -</option>
+                                            <option value="1 - 20">1 - 20</option>
+                                            <option value="21 - 100">21 - 100</option>
+                                            <option value="101 - 500">101 - 500</option>
+                                            <option value="501 - 1,000">501 - 1,000</option>
+                                            <option value="1,001 - 10,000" >1,001 - 10,000</option>
+                                            <option value="10,001 +">10,001 +</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-lg-5 col-form-label form-control-label"></label>
+                                    <div class="col-lg-7">
+
+                                        <a href="https://hootsuite.com/request-demo/thank-you" class="btn btn-large w-100 btn-success"  (click)="onSubmit(formEx.value)" >Book your demo now</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- /form user info -->
+                    </div>
+        </div>
