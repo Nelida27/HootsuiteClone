@@ -8,3 +8,29 @@ a{
 .dropdown:hover>.dropdown-menu {
   display: block;
 }
+.footer_test{
+   display: flex;
+   justify-content:space-between;
+}
+.site-footer__tools2{
+flex-wrap: wrap;
+
+}
+@media only screen and (max-width: 767px){
+.footer_test {
+  display: block;
+  text-align: center;
+}
+}
+
+.site_footer_info{
+display: flex;
+
+}
+.site_info{
+display: inline;
+
+}
+.site_buttons{
+
+}
